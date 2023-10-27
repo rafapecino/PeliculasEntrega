@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMovie1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El Caballero Oscuro" />
+
+    <Button
+        android:id="@+id/btnMovie2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadena Perpetua" />
+
+    <Button
+        android:id="@+id/btnMovie3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="City Lights" />
+
+    <Button
+        android:id="@+id/btnMovie4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Django" />
+
+    <Button
+        android:id="@+id/btnMovie5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interestellar" />
+
+    <Button
+        android:id="@+id/btnMovie6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Malditos Bastardos" />
+
+    <Button
+        android:id="@+id/btnMovie7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El Padrino" />
+
+    <Button
+        android:id="@+id/btnMovie8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pulp Fiction" />
+
+    <Button
+        android:id="@+id/btnMovie9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservoir Dogs" />
+
+    <Button
+        android:id="@+id/btnMovie10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Lista de Schindler" />
+
+</LinearLayout>
