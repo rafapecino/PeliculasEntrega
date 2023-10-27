@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.gson.Gson;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -28,84 +30,114 @@ public class MainActivity extends AppCompatActivity {
         btnMovie1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 1", "Director 1", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 1"); // Puedes pasar datos adicionales a la actividad de detalles
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
-
         btnMovie2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 2", "Director 2", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 2");
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
         btnMovie3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 3", "Director 3", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 3");
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
         btnMovie4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 4", "Director 4", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 4");
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
         btnMovie5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 5", "Director 5", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 5");
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
         btnMovie6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 6", "Director 6", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 6");
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
         btnMovie7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 7", "Director 7", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 7");
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
         btnMovie8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 8", "Director 8", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 8");
+                intent.putExtra("movie", json);
                 startActivity(intent);
             }
         });
         btnMovie9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 9", "Director 9", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 9");
+                intent.putExtra("movie", json);
                 startActivity(intent);
+
             }
         });
         btnMovie10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Movie movie = new Movie("Película 10", "Director 10", null, null);
+                Gson gson = new Gson();
+                String json = gson.toJson(movie);
                 Intent intent = new Intent(MainActivity.this, MovieDetailsActivity.class);
-                intent.putExtra("movie_title", "Película 10");
+                intent.putExtra("movie", json);
+
                 startActivity(intent);
             }
         });
-
     }
 }
